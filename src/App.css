@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+footer {
+  height: 15vh;
+  background-color: #1d454d;
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+footer .brandName h2 {
+  font-size: 2rem;
+  color: #e9e5de;
+}
+
+footer .linksFooter .ulFooter {
+  list-style: none;
+}
+footer .linksFooter .ulFooter .liFooter {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #e9e5de;
+}
+
+.navbarFluid {
+  height: 10vh;
+  background-color: #1d454d;
+  color: #e9e5de;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbarContainer {
+  width: 100vw;
+  background-color: #1d454d;
+  color: #e9e5de;
+  margin: 0px;
+  padding: 0px;
+  width: 1074px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #e9e5de;
+  padding-left: 10px;
+}
+
+.nav-link {
+  color: #e9e5de;
+}
+
+.home {
+  height: 75vh;
+  background-color: #dcd6ca;
+}
+
+.aside {
+  background-color: #ce774a;
+  color: rgb(34, 34, 34);
+}
+
+.aside ul {
+  list-style: none;
+}
+
+.aside ul .liCat {
+  margin-top: 30px;
+}
+
+.aside ul .liCat .aCat {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.container {
+  padding: 0px;
+}
+
+.divInnerHome {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+  height: 37.5vh;
+  border: #afaca4 solid 1px;
+}
