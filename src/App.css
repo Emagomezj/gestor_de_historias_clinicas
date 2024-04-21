@@ -36,12 +36,21 @@ footer .linksFooter .ulFooter .liFooter {
 
 .navbarContainer {
   max-width: none;
-  width: 100vwt;
+  width: 100vw;
   background-color: #1d454d;
   color: #e9e5de;
   margin: 0px;
   padding: 0px;
   justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: #1d454d;
+  color: #e9e5de;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  color: #e9e5de;
 }
 
 .navbar-brand {
@@ -64,6 +73,12 @@ footer .linksFooter .ulFooter .liFooter {
   color: rgb(34, 34, 34);
 }
 
+.aside h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 20px;
+}
+
 .aside ul {
   list-style: none;
 }
@@ -82,9 +97,15 @@ footer .linksFooter .ulFooter .liFooter {
 }
 
 .divInnerHome {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
   width: 50%;
   height: 37.5vh;
   border: #afaca4 solid 1px;
+}
+
+.divInnerHome .divTitle {
+  font-size: 1.3rem;
+  text-align: center;
 }
