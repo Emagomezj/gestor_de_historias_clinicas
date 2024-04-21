@@ -30,15 +30,18 @@ footer .linksFooter .ulFooter .liFooter {
   color: #e9e5de;
   padding: 0px;
   margin: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .navbarContainer {
-  width: 100vw;
+  max-width: none;
+  width: 100vwt;
   background-color: #1d454d;
   color: #e9e5de;
   margin: 0px;
   padding: 0px;
-  width: 1074px;
+  justify-content: space-between;
 }
 
 .navbar-brand {

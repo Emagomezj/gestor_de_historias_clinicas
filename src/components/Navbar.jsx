@@ -13,7 +13,7 @@ const NavBar = () => {
       expand="lg"
       className="container-fluid navbar navbarFluid"
     >
-      <Container className="navbarContainer container-fluid">
+      <Container className="navbarContainer">
         <Navbar.Brand href="#home">Inst-Name</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
